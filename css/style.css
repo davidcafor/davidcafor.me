@@ -53,3 +53,7 @@ a:hover {
 ::selection {
   background-color: #fff888;
 }
+
+.tachado {
+    text-decoration: line-through;
+}
