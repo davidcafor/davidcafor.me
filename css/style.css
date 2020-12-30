@@ -1,10 +1,17 @@
 body {
-  font-family: Liberation Sans, Arial, sans-serif;
+  /**font-family: Liberation Sans, Arial, sans-serif;**/
   background-color: #fffaf7;
-  line-height: 1.5;
+  /**line-height: 1.5;**/
 }
+
+h1 { font-family: Garamond; font-size: 32px; font-style: normal; font-variant: normal; font-weight: bold; line-height: 32px; }
+h3 { font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif; font-size: 25px; font-style: normal; font-variant: normal; font-weight: bold; line-height: 32px; }
+p { font-family: Baskerville; font-size: 20px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 32px; }
+blockquote { font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif; font-size: 25px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 32px; }
+pre { font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif; font-size: 16px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 32px; }
+
 main {
-  max-width: 70ch;
+  max-width: 90ch;
   padding: 2ch;
   margin: auto;
 }
